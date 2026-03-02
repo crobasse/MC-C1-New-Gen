@@ -179,7 +179,8 @@ disabled-commands:
   - mail
   - list
   - vanish
-  #- clear
+  - give
+  - kill
 
 # Whether Essentials should show detailed command usages.
 # If set to false, Essentials will collapse all usages in to one single usage message.

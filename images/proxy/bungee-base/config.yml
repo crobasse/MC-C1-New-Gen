@@ -29,7 +29,7 @@ servers:
 listeners:
   - query_port: 25577
     motd: "&cC1 - New Gen"
-    tab_list: SERVER
+    tab_list: GLOBAL
     query_enabled: false
     proxy_protocol: false
     forced_hosts:
