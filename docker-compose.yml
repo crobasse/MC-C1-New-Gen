@@ -63,6 +63,11 @@ services:
       RCON_PASSWORD: "RCON_PASSWORD"
       LUCKPERMS_SERVER: proxy
       <<: *db-vars
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 25577 || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
     volumes:
       - proxy-data:/server
 
