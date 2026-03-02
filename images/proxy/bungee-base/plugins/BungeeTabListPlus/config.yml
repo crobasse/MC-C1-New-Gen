@@ -40,9 +40,9 @@ hiddenServers: []
 
 # this notifies admins (everyone with the permission `bungeetablistplus.admin`) if an update is available
 notifyAdminsIfUpdateAvailable: true
-
+permissionSource: LUCKPERMS
 # Interval (in seconds) at which all servers of your network get pinged to check whether they are online
 # If you intend to use the {onlineState:SERVER} variable set this to 2 or any value you like
 # setting this to -1 disables this feature
 pingDelay: -1
-time_zone: Etc/UTC
+time_zone: Europe/Paris
