@@ -8,7 +8,7 @@ playerComponent: "&9${player server} &b> &e${player luckpermsbungee_prefix}${pla
 #
 
 showHeaderFooter: true
-header: "&cBienvenue &f${viewer name} &csur le serveur &6${viewer server}"
+header: "&cBienvenue &e${player luckpermsbungee_prefix}${player name} &csur le serveur &6${viewer server}"
 headerAnimationUpdateInterval: 0.2
 footer: ""
 
