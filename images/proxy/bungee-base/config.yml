@@ -30,7 +30,7 @@ listeners:
   - query_port: 25577
     motd: "&cC1 - New Gen"
     tab_list: GLOBAL_PING
-    query_enabled: false
+    query_enabled: true
     proxy_protocol: true
     forced_hosts:
       pvp.md-5.net: pvp
