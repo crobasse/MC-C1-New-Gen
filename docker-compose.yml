@@ -51,6 +51,11 @@ services:
       RCON_PASSWORD: "RCON_PASSWORD"
     volumes:
       - proxy-data:/server
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "25577"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
 volumes:
   survival-data:
