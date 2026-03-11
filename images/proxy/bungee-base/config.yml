@@ -1,6 +1,6 @@
 server_connect_timeout: 5000
 remote_ping_cache: -1
-forge_support: true
+forge_support: false
 player_limit: -1
 permissions:
   default:
