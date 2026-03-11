@@ -13,6 +13,7 @@ services:
       EULA: "TRUE"
       ONLINE_MODE: "FALSE"
       TYPE: "SPIGOT"
+      VIEW_DISTANCE: 16
     volumes:
       - survival-data:/data
   creative:
@@ -28,6 +29,9 @@ services:
       EULA: "TRUE"
       ONLINE_MODE: "FALSE"
       TYPE: "SPIGOT"
+      VIEW_DISTANCE: 16
+      DIFFICULTY: "PEACEFUL"
+      GAMEMODE: "CREATIVE"
     volumes:
       - creative-data:/data
   proxy:

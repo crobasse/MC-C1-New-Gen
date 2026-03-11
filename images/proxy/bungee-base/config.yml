@@ -1,6 +1,6 @@
 server_connect_timeout: 5000
 remote_ping_cache: -1
-forge_support: false
+forge_support: true
 player_limit: -1
 permissions:
   default:
@@ -39,7 +39,7 @@ listeners:
       - survival
     bind_local_address: true
     host: 0.0.0.0:25577
-    max_players: 1
+    max_players: 10
     tab_size: 60
     force_default_server: false
 ip_forward: true
@@ -51,4 +51,4 @@ groups:
 connection_throttle: 4000
 stats: c4b9cabb-93e9-4bce-93ab-4b18642e6f3e
 connection_throttle_limit: 3
-log_pings: true
+log_pings: false
